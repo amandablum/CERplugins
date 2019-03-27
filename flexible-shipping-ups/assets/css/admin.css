@@ -1,0 +1,80 @@
+span.flexible_shipping_ups_api_status {
+    font-weight: bold;
+}
+
+span.flexible_shipping_ups_api_status_ok {
+    color: green;
+}
+
+span.flexible_shipping_ups_api_status_error {
+    color: red;
+}
+
+table.flexible_shipping_ups_services {
+    max-width: 550px;
+}
+
+table.flexible_shipping_ups_services .sort {
+    width: 1%;
+}
+
+table.flexible_shipping_ups_services .service_code {
+    width: 30px;
+}
+
+table.flexible_shipping_ups_services .select {
+    text-align: center;
+    width: 1%;
+}
+
+table.flexible_shipping_ups_services .select input {
+    margin: 0 8px 0 8px;
+}
+
+.woocommerce table.form-table table.flexible_shipping_ups_services td.service_name input {
+    width: 100%;
+}
+
+input.woocommerce_flexible_shipping_ups_service_name {
+    width: 100%;
+}
+
+/* Settings HTML */
+.inspire-settings {
+	display: table;
+	width: 100%;
+}
+
+.inspire-settings .inspire-main-content,
+.inspire-settings .inspire-sidebar {
+	display: table-cell;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.inspire-settings .inspire-main-content {
+	min-width: 800px;
+}
+
+.inspire-settings .inspire-sidebar {
+	padding-left: 30px;
+	width: 250px;
+}
+
+table.flexible_shipping_ups_services td.ui-sortable-handle:before {
+    content: '\f333';
+    font-family: Dashicons;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    display: block;
+    width: 17px;
+    float: left;
+    height: 100%;
+    line-height: 24px;
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
